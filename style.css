@@ -1,0 +1,234 @@
+/* ===================== 
+      Common  CSS 
+ ================= */
+
+*{
+    font-family: "Playfair Display", serif;
+    color: #07484A;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* =============================
+    CSS for NAV_BAR start
+============================ */
+#Nav_Bar{
+    width: 1920px;
+    height: 88px;
+    gap: auto;
+    padding: 26px 150px 26px 150px;
+    box-flex-group: #F3F6F5;
+    /* border: 5px solid red; */
+}
+.nav_container{
+    display: flex;
+     /* border: 5px solid red; */
+}
+.nav_container .links ul{
+    display: flex;
+      /* border: 5px solid red; */
+    width: 606px;
+    height: 32px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight:400 italic;
+  
+    margin: 0 337px 0 337px;
+    
+
+}
+.nav_container .links ul a:hover{
+    color: #054246;
+    font-weight: 700;
+    border-bottom: 2px solid #054246;
+    border-radius: 5px;
+}
+.nav_container .symbols{
+    width: 196px;
+    height: 27px;
+    gap: 58px;
+    display: flex;
+}
+/* =============================
+    CSS for NAV_BAR End
+============================ */
+
+/* =============================
+    CSS for Banner Sart
+============================ */
+#banner{
+    width: 1920px;
+    height: 695px;
+    gap: 104px;
+    padding: 100px 286.5px 100px 286.5px;
+    background-color: #E0EFF6;
+}
+.banner_container{
+    height: 496px;
+    width: 1347px;
+
+}
+.banner_container .banner_head{
+    width: 836px;
+    height: 85px;
+    margin: 0 255.5px 104px 255.5px;
+}
+.banner_container .banner_head h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: auto;
+    text-align: left;
+}
+.banner_container .banner_body{
+    width: 1347px;
+    height: 306px;
+    gap: 232px;
+    display: flex;
+}
+.banner_container .banner_body .part1{
+    width: 288px;
+    height: 306px;
+    gap: 32px;
+    /* border: 5px solid red; */
+}
+.banner_container .banner_body  .sub_part1{
+    margin: 10px 90px 32px 90px;
+}
+.banner_container .banner_body  .sub_part2{
+    font-weight: 700;
+    font-size: 36px ;
+    line-height: auto;
+    width: 288px;
+    height: 48px;
+    text-align: left;
+}
+.banner_container .banner_body  .sub_part3{
+    width: 288px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+.banner_container .banner_body .part3 .sub_part2{
+    font-weight: 700;
+    font-size: 36px ;
+    line-height: auto;
+    width: 308px;
+    height: 48px;
+    text-align: left;
+}
+/* =============================
+    CSS for Banner End
+============================ */
+
+/* =============================
+    CSS for Footer Start
+============================ */
+
+#Footer{
+    width: 1920px; 
+    height: 464px;
+    /* gap: 0px; */
+    padding: 100px 150px 32px 150px;
+    background-color: #F3F6F5;
+    /* font-family: "Open Sans", sans-serif !important; */
+}
+.footer_container{
+    
+    width: 1620px;
+    height: 332px;
+    /* border: 5px solid red; */
+    
+}
+.footer_container .main_body{
+    display: flex;
+    gap: 80px;
+}
+.footer_container .main_body .foot1{
+    width: 405px;
+    height: 238px;
+    gap: 21px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+}
+.footer_container .main_body .foot1 .icons{
+    display: flex;
+    gap: 36px;
+    margin-top: 21px;
+}
+.footer_container .main_body .foot1 .para{
+    width: 349px;
+    height: 130px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    line-height: auto;
+    font-size: 18px;
+    font-weight: 400;
+     font-family: "Open Sans", sans-serif;
+     margin-top: 21px;
+   
+}
+.footer_container .main_body .foot1 .para a{
+     margin-top: 12px;
+}
+.footer_container .main_body .foot2{
+    width: 216px;
+    height: 150px;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    
+}
+.footer_container .main_body .foot2 .head_part{
+    width: 106px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: auto;
+    margin-bottom: 30px;
+}
+.footer_container .main_body .foot2 .body_part{
+    width: 126px;
+    height: 95px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: auto;
+    
+}
+.footer_container .main_body .foot2 .body_part a{
+    margin-top: 12px;
+}
+.footer_container .main_body .foot2 .body_part1{
+    width: 176px;
+    height: 95px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: auto;
+
+    
+}
+.footer_container .main_body .foot2 .body_part1 a{
+    margin-top: 12px;
+}
+.footer_container .rights{
+    width: 392px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+    margin-top: 70px;
+}
+/* =============================
+    CSS for Footer End
+============================ */
+
